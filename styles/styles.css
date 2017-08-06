@@ -45,7 +45,7 @@ button.btn.hover {
     color: #fff;
 }
 
-tasks {
+.tasks {
     margin-top: 20px;
     list-style: none;
     padding-left: 0px;
@@ -58,18 +58,17 @@ li {
     margin: 25px 0 0px;
 }
 
-fa.fa-check {
+.fa.fa-check {
     color: rgba(76, 141, 44, 0.9);
 }
 
-fa.fa-times {
+.fa.fa-times {
     color: rgba(215, 40, 40, 0.9);
     padding-right: 10px;
     padding-left: 10px;
-    [ 31]What you need to know about JavaScript
 }
 
-fa.fa-calendar {
+.fa.fa-calendar {
     padding-right: 15px;
 }
 

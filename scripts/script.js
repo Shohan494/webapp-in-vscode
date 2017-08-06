@@ -12,6 +12,7 @@ var main = () => {
     // Create an array to store tasks
     var myTasks = [];
     $('h1').append(` My tasks for today, ${today}`);
+
     // Add tasks to the list
     $('form').submit((event) => {
         var input = $(event.target).find('input');
@@ -28,6 +29,9 @@ class="fa fa-times"></i>${task.description}`);
         }
         return false;
     });
+
+    console.log(myTasks);
+
     // Remove tasks by clicking on the red X
     $('#tasks').on('click', '.fa.fa-times', function(event) {
         console.log($(this).closest("li").index());
