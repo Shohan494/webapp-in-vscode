@@ -19,8 +19,7 @@ var main = () => {
         var description = input.val();
         if (description != "") {
             var currentTaskCount = $("#tasks").children().length;
-            task = new Task(currentTaskCount + 1, description, today,
-                false);
+            task = new Task(currentTaskCount + 1, description, today, false);
             myTasks.push(task);
             var html = $('<li>').html(`<i class="fa fa-check"></i><i
 class="fa fa-times"></i>${task.description}`);
